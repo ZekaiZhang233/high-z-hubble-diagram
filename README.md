@@ -5,5 +5,6 @@ Catalog used in this script is available at [http://cdsarc.u-strasbg.fr/viz-bin/
 
 The process of this code is as follows:  
 1. Perform a linear fit on the UV and x-ray flux data to find the log-linear relationship.
-2. Use fitted parameters to calculate luminosity distance d_L.
-3. 
+2. Use fitted parameters to calculate luminosity distance $d_L$.
+3. From $d_L$ calculate distance modulus DM and e_DM.
+4. Plot the Hubble diagram of DM vs. z and fit the diagram with MCMC.
